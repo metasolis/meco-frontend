@@ -42,3 +42,12 @@ Thumbs.db
 
 # Next.js
 .next
+
+# local env files
+.env*.local
+.env
+*.sh
+Makefile
+
+# vercel
+.vercel
