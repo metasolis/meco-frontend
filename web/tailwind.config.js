@@ -11,7 +11,14 @@ module.exports = {
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'meco-bcgd': '#000000',
+        'meco-planet': '#545454',
+        'meco-text': '#7ED957',
+        'meco-slogan': '#E9A664',
+      },
+    },
   },
   plugins: [require('daisyui')],
 };
